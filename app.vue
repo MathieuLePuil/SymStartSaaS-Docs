@@ -15,6 +15,7 @@
                 <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                     <div class="flex flex-shrink-0 items-center">
                         <img class="h-8 w-auto" src="/public/logo-symstartsaas.png" alt="CodeClipper Logo">
+                        <h1 class="font-semibold text-xl ml-2">SymStartSaaS</h1>
                     </div>
                     <div class="hidden sm:flex sm:ml-6 sm:justify-end flex-1">
                         <div class="flex space-x-4">
