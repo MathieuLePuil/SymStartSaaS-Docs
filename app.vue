@@ -20,8 +20,8 @@
                     <div class="hidden sm:flex sm:ml-6 sm:justify-end flex-1">
                         <div class="flex space-x-4">
                             <a href="" class="text-light-text dark:text-dark-text rounded-md px-3 py-2 ml-10 text-ml font-medium font-body hover:underline hover:scale-105 transition-all duration-200 ease" aria-current="page">Home</a>
-                            <a href="" class="text-light-text dark:text-dark-text rounded-md px-3 py-2 text-ml font-medium font-body hover:bg-light-primary dark:hover:bg-dark-primary hover:text-light-background dark:hover:text-dark-background hover:underline hover:scale-105 transition-all duration-200 ease" aria-current="page">Docs</a>
-                            <a href="" class="text-light-text dark:text-dark-text rounded-md px-3 py-2 text-ml font-medium font-body hover:bg-light-primary dark:hover:bg-dark-primary hover:text-light-background dark:hover:text-dark-background hover:underline hover:scale-105 transition-all duration-200 ease" aria-current="page">GitHub</a>
+                            <a href="https://github.com/MathieuLePuil/SymStartSaaS/blob/main/README.md" class="text-light-text dark:text-dark-text rounded-md px-3 py-2 text-ml font-medium font-body hover:bg-light-primary dark:hover:bg-dark-primary hover:text-light-background dark:hover:text-dark-background hover:underline hover:scale-105 transition-all duration-200 ease" aria-current="page" target="_blank">Docs</a>
+                            <a href="https://github.com/MathieuLePuil/SymStartSaaS" class="text-light-text dark:text-dark-text rounded-md px-3 py-2 text-ml font-medium font-body hover:bg-light-primary dark:hover:bg-dark-primary hover:text-light-background dark:hover:text-dark-background hover:underline hover:scale-105 transition-all duration-200 ease" aria-current="page" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -44,9 +44,9 @@
 
         <div :class="{'hidden': !menuOpen}" id="mobile-menu">
             <div class="space-y-1 px-2 pb-3 pt-2">
-                <a href="" class="block text-light-text dark:text-dark-text rounded-md px-3 py-2 text-ml font-medium font-body hover:bg-light-primary dark:hover:bg-dark-primary hover:text-light-background dark:hover:text-dark-background -mt-6" aria-current="page">Home</a>
-                <a href="" class="block text-light-text dark:text-dark-text rounded-md px-3 py-2 text-ml font-medium font-body hover:bg-light-primary dark:hover:bg-dark-primary hover:text-light-background dark:hover:text-dark-background" aria-current="page">Docs</a>
-                <a href="" class="block text-light-text dark:text-dark-text rounded-md px-3 py-2 text-ml font-medium font-body hover:bg-light-primary dark:hover:bg-dark-primary hover:text-light-background dark:hover:text-dark-background border-b-2 border-dark-text border-solid" aria-current="page">GitHub</a>
+                <a href="/" class="block text-light-text dark:text-dark-text rounded-md px-3 py-2 text-ml font-medium font-body hover:bg-light-primary dark:hover:bg-dark-primary hover:text-light-background dark:hover:text-dark-background -mt-6" aria-current="page">Home</a>
+                <a href="https://github.com/MathieuLePuil/SymStartSaaS/blob/main/README.md" class="block text-light-text dark:text-dark-text rounded-md px-3 py-2 text-ml font-medium font-body hover:bg-light-primary dark:hover:bg-dark-primary hover:text-light-background dark:hover:text-dark-background" aria-current="page" target="_blank">Docs</a>
+                <a href="https://github.com/MathieuLePuil/SymStartSaaS" class="block text-light-text dark:text-dark-text rounded-md px-3 py-2 text-ml font-medium font-body hover:bg-light-primary dark:hover:bg-dark-primary hover:text-light-background dark:hover:text-dark-background border-b-2 border-dark-text border-solid" aria-current="page" target="_blank">GitHub</a>
             </div>
         </div>
     </nav>
